@@ -9,17 +9,17 @@
   <div id="3d-graph"></div>
 
   <script>
-    // Random tree
-    const N = 40;
-    const gData = {
-      nodes: [...Array(N).keys()].map(i => ({ id: i })),
-      links: [...Array(N).keys()]
-    .filter(id => id)
-      .map(id => ({
-        source: id,
-        target: Math.round(Math.random() * (id-1))
-      }))
-    };
+    const Graph = ForceGraph3D()
+      (document.getElementById('3d-graph'))
+        .jsonUrl('../datasets/miserables.json')
+        .nodeAutoColorBy('group')
+        .nodeThreeObject(node => {
+          const sprite = new SpriteText(node.id);
+          sprite.material.depthWrite = false; // make sprite background transparent
+          sprite.color = node.color;
+          sprite.textHeight = 8;
+          return sprite;
+        });
 
     const Graph = ForceGraph3D()
     (document.getElementById('3d-graph'))
