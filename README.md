@@ -6,7 +6,7 @@
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 <p align="center">
-     <a href="https://vasturiano.github.io/3d-force-graph/example/large-graph/"><img width="80%" src="https://vasturiano.github.io/3d-force-graph/example/preview.png"></a>
+     <a href="https://entin-hun.github.io/3D-MIND/example/large-graph/"><img width="80%" src="https://entin-hun.github.io/3D-MIND/example/preview.png"></a>
 </p>
 
 A web component to represent a graph data structure in a 3-dimensional space using a [force-directed](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) iterative layout.
@@ -18,37 +18,37 @@ And check out the [React bindings](https://github.com/vasturiano/react-force-gra
 
 ## Examples
 
-* [Basic](https://vasturiano.github.io/3d-force-graph/example/basic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/basic/index.html))
-* [Asynchronous load](https://vasturiano.github.io/3d-force-graph/example/async-load/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/async-load/index.html))
-* [Larger graph (~4k elements)](https://vasturiano.github.io/3d-force-graph/example/large-graph/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/large-graph/index.html))
-* [Directional arrows](https://vasturiano.github.io/3d-force-graph/example/directional-links-arrows/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-arrows/index.html))
-* [Directional moving particles](https://vasturiano.github.io/3d-force-graph/example/directional-links-particles/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-particles/index.html))
-* [Curved lines and self links](https://vasturiano.github.io/3d-force-graph/example/curved-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/curved-links/index.html))
-* [Auto-colored nodes/links](https://vasturiano.github.io/3d-force-graph/example/auto-colored/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/auto-colored/index.html))
-* [Text as nodes](https://vasturiano.github.io/3d-force-graph/example/text-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/text-nodes/index.html))
-* [Images as nodes](https://vasturiano.github.io/3d-force-graph/example/img-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/img-nodes/index.html))
-* [HTML in nodes](https://vasturiano.github.io/3d-force-graph/example/html-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/html-nodes/index.html))
-* [Custom node geometries](https://vasturiano.github.io/3d-force-graph/example/custom-node-geometry/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/custom-node-geometry/index.html))
-* [Gradient Links](https://vasturiano.github.io/3d-force-graph/example/gradient-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/gradient-links/index.html))
-* [Text in Links](https://vasturiano.github.io/3d-force-graph/example/text-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/text-links/index.html))
-* [Orbit controls](https://vasturiano.github.io/3d-force-graph/example/controls-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-orbit/index.html))
-* [Fly controls](https://vasturiano.github.io/3d-force-graph/example/controls-fly/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-fly/index.html))
-* [Camera automatic orbitting](https://vasturiano.github.io/3d-force-graph/example/camera-auto-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/camera-auto-orbit/index.html))
-* [Click to focus on node](https://vasturiano.github.io/3d-force-graph/example/click-to-focus/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/click-to-focus/index.html))
-* [Click to expand/collapse nodes](https://vasturiano.github.io/3d-force-graph/example/expandable-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/expandable-nodes/index.html))
-* [Fix nodes after dragging](https://vasturiano.github.io/3d-force-graph/example/fix-dragged-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/fix-dragged-nodes/index.html))
-* [Fit graph to canvas](https://vasturiano.github.io/3d-force-graph/example/fit-to-canvas/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/fit-to-canvas/index.html))
-* [Highlight nodes/links](https://vasturiano.github.io/3d-force-graph/example/highlight/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/highlight/index.html))
-* [Multiple Node Selection](https://vasturiano.github.io/3d-force-graph/example/multi-selection/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/multi-selection/index.html))
-* [Dynamic data changes](https://vasturiano.github.io/3d-force-graph/example/dynamic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dynamic/index.html))
-* [Node collision detection](https://vasturiano.github.io/3d-force-graph/example/collision-detection/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/collision-detection/index.html))
-* [Manipulate link force distance](https://vasturiano.github.io/3d-force-graph/example/manipulate-link-force/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/manipulate-link-force/index.html))
-* [Emit link particles on demand](https://vasturiano.github.io/3d-force-graph/example/emit-particles/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/emit-particles/index.html))
-* [Force-directed tree (DAG mode)](https://vasturiano.github.io/3d-force-graph/example/tree/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/tree/index.html))
-* [yarn.lock dependency graph (DAG mode)](https://vasturiano.github.io/3d-force-graph/example/dag-yarn/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dag-yarn/index.html))
-* [Add external objects to scene](https://vasturiano.github.io/3d-force-graph/example/scene/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/scene/index.html))
-* [Bloom Post-Processing Effect](https://vasturiano.github.io/3d-force-graph/example/bloom-effect/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/bloom-effect/index.html))
-* [Pause / Resume animation](https://vasturiano.github.io/3d-force-graph/example/pause-resume/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/pause-resume/index.html))
+* [Basic](https://entin-hun.github.io/3D-MIND/example/basic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/basic/index.html))
+* [Asynchronous load](https://entin-hun.github.io/3D-MIND/example/async-load/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/async-load/index.html))
+* [Larger graph (~4k elements)](https://entin-hun.github.io/3D-MIND/example/large-graph/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/large-graph/index.html))
+* [Directional arrows](https://entin-hun.github.io/3D-MIND/example/directional-links-arrows/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-arrows/index.html))
+* [Directional moving particles](https://entin-hun.github.io/3D-MIND/example/directional-links-particles/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/directional-links-particles/index.html))
+* [Curved lines and self links](https://entin-hun.github.io/3D-MIND/example/curved-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/curved-links/index.html))
+* [Auto-colored nodes/links](https://entin-hun.github.io/3D-MIND/example/auto-colored/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/auto-colored/index.html))
+* [Text as nodes](https://entin-hun.github.io/3D-MIND/example/text-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/text-nodes/index.html))
+* [Images as nodes](https://entin-hun.github.io/3D-MIND/example/img-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/img-nodes/index.html))
+* [HTML in nodes](https://entin-hun.github.io/3D-MIND/example/html-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/html-nodes/index.html))
+* [Custom node geometries](https://entin-hun.github.io/3D-MIND/example/custom-node-geometry/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/custom-node-geometry/index.html))
+* [Gradient Links](https://entin-hun.github.io/3D-MIND/example/gradient-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/gradient-links/index.html))
+* [Text in Links](https://entin-hun.github.io/3D-MIND/example/text-links/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/text-links/index.html))
+* [Orbit controls](https://entin-hun.github.io/3D-MIND/example/controls-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-orbit/index.html))
+* [Fly controls](https://entin-hun.github.io/3D-MIND/example/controls-fly/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/controls-fly/index.html))
+* [Camera automatic orbitting](https://entin-hun.github.io/3D-MIND/example/camera-auto-orbit/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/camera-auto-orbit/index.html))
+* [Click to focus on node](https://entin-hun.github.io/3D-MIND/example/click-to-focus/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/click-to-focus/index.html))
+* [Click to expand/collapse nodes](https://entin-hun.github.io/3D-MIND/example/expandable-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/expandable-nodes/index.html))
+* [Fix nodes after dragging](https://entin-hun.github.io/3D-MIND/example/fix-dragged-nodes/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/fix-dragged-nodes/index.html))
+* [Fit graph to canvas](https://entin-hun.github.io/3D-MIND/example/fit-to-canvas/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/fit-to-canvas/index.html))
+* [Highlight nodes/links](https://entin-hun.github.io/3D-MIND/example/highlight/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/highlight/index.html))
+* [Multiple Node Selection](https://entin-hun.github.io/3D-MIND/example/multi-selection/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/multi-selection/index.html))
+* [Dynamic data changes](https://entin-hun.github.io/3D-MIND/example/dynamic/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dynamic/index.html))
+* [Node collision detection](https://entin-hun.github.io/3D-MIND/example/collision-detection/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/collision-detection/index.html))
+* [Manipulate link force distance](https://entin-hun.github.io/3D-MIND/example/manipulate-link-force/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/manipulate-link-force/index.html))
+* [Emit link particles on demand](https://entin-hun.github.io/3D-MIND/example/emit-particles/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/emit-particles/index.html))
+* [Force-directed tree (DAG mode)](https://entin-hun.github.io/3D-MIND/example/tree/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/tree/index.html))
+* [yarn.lock dependency graph (DAG mode)](https://entin-hun.github.io/3D-MIND/example/dag-yarn/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/dag-yarn/index.html))
+* [Add external objects to scene](https://entin-hun.github.io/3D-MIND/example/scene/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/scene/index.html))
+* [Bloom Post-Processing Effect](https://entin-hun.github.io/3D-MIND/example/bloom-effect/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/bloom-effect/index.html))
+* [Pause / Resume animation](https://entin-hun.github.io/3D-MIND/example/pause-resume/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/pause-resume/index.html))
 
 ## Quick start
 
