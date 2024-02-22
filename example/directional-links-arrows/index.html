@@ -15,6 +15,10 @@
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/miserables.json')
+        .graphData(gData)
+        .linkDirectionalArrowLength(3.5)
+        .linkDirectionalArrowRelPos(1)
+        .linkCurvature(0.25);
         .nodeAutoColorBy('group')
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
@@ -23,13 +27,9 @@
           sprite.textHeight = 8;
           return sprite;
         });
-
-    const Graph = ForceGraph3D()
-    (document.getElementById('3d-graph'))
-      .graphData(gData)
-      .linkDirectionalArrowLength(3.5)
-      .linkDirectionalArrowRelPos(1)
-      .linkCurvature(0.25);
+    
+    // Spread nodes a little wider
+    Graph.d3Force('charge').strength(-120);
     
   </script>
 </body>
