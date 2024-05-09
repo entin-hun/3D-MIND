@@ -23,8 +23,7 @@
     import { CSS2DRenderer, CSS2DObject } from '//unpkg.com/three/examples/jsm/renderers/CSS2DRenderer.js';
 
     const Graph = ForceGraph3D({
-      extraRenderers: [new CSS2DRenderer()];
-      Graph.backgroundColor(#B1FFFF);
+      extraRenderers: [new CSS2DRenderer()]
     })
     (document.getElementById('3d-graph'))
       .jsonUrl('../datasets/miserables.json')
@@ -34,6 +33,7 @@
         nodeEl.textContent = node.id;
         nodeEl.style.color = node.color;
         nodeEl.className = 'node-label';
+      Graph.backgroundColor(#B1FFFF);
         return new CSS2DObject(nodeEl);
       })
       .nodeThreeObjectExtend(true)
