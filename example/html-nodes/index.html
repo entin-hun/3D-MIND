@@ -23,7 +23,8 @@
     import { CSS2DRenderer, CSS2DObject } from '//unpkg.com/three/examples/jsm/renderers/CSS2DRenderer.js';
 
     const Graph = ForceGraph3D({
-      extraRenderers: [new CSS2DRenderer()]
+      extraRenderers: [new CSS2DRenderer()];
+      Graph.backgroundColor(#B1FFFF);
     })
     (document.getElementById('3d-graph'))
       .jsonUrl('../datasets/miserables.json')
